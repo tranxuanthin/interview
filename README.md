@@ -1,6 +1,6 @@
-# interview
-Step 1: cd joke/
-Step 2: docker compose up -d
+# interview  
+Step 1: cd joke/  
+Step 2: docker compose up -d  
 Step 3: you can access through the link: http://localhost:8001
 ***run command to fix some case: docker compose restart joke_app
 
