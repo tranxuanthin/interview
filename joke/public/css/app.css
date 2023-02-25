@@ -1,0 +1,103 @@
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size:16px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 10rem 1rem 10rem;
+
+}
+.logo img{
+   height: 5rem;
+   width: 5rem;
+}
+.avatar img {
+   height: 6rem;
+   width: 6rem;
+   border-radius: 4rem;
+   
+}
+.user{
+    display: flex;
+    justify-content: center;
+}
+.name{
+    align-self: center;
+    padding-right: 1rem;
+    color: #979797;
+}
+.banner{
+    height: 25vh;
+    background-color: rgb(41,179,99);
+    color: rgb(255,255,255);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text h1{
+    font-size: 2.5rem;
+    padding-bottom: 0rem;
+    margin-bottom: 1rem;
+}
+.banner-text i{
+    font-size: 1.5rem;
+}
+.joke{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+.joke p{
+    display: inline-block;
+    max-width: 80rem;
+    font-size: 2rem;
+    color: rgb(113,113,113);
+}
+.vote{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+.like{
+    margin-right: 1rem;
+    padding: 1rem 4rem 1rem 4rem;
+    background-color: rgb(44,126,219);
+    color: white;
+    border-bottom: 3px solid rgb(28,105,192);
+    cursor:pointer;
+}
+.dislike{
+    margin-left: 1rem;
+    padding: 1rem 4rem 1rem 4rem;
+    background-color: rgb(37,172,94);
+    color: white;
+    border-bottom: 3px solid rgb(25,152,78);
+    cursor:pointer;
+}
+
+.footer{
+    align-self: center;
+    margin-top: 10rem;
+    /* margin-bottom: 5rem; */
+    border-top: 0.5px dotted rgb(24, 26, 25);
+}
+.footer-text{
+    max-width: 800px;
+    margin: 0 auto;
+    color:rgb(150,150,150);
+    /* text-align: center; */
+    
+}
+.footer-copyright{
+    text-align: center;
+    padding-bottom: 1rem;
+    color:rgb(100,100,100);
+}

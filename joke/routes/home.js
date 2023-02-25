@@ -1,0 +1,10 @@
+const express = require('express');
+const route = express.Router();
+const homeController = require('../controllers/Home');
+route.use('/home', homeController.index);
+route.use('/joke', homeController.getAllJokes);
+route.use('/vote', homeController.getAllVotes);
+route.post('/add-joke', homeController.addJoke);
+route.post('/react', homeController.vote);
+route.post('/getJoke', homeController.getJoke);
+module.exports = route;
